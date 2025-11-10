@@ -1,0 +1,158 @@
+# Crossover Problems Decomposition
+
+### Intro
+
+The goal of this document is to break down the [Q4/2025 plan of Crossover](https://docs.google.com/document/d/1Tc7hmUZ09qCSv0FfK-UB3pTtf02mqbqR8hvqLULRwMM/edit?tab=t.0#heading=h.mwp0pjp65b3w) into problems to analyze BrainLift opportunities for each problem and present either a purpose statement or questions to clarify before a BrainLift with a purpose statement can be presented.
+
+### Thought Process
+
+- **Goal Extraction & Validation**
+  - Extract all stated goals from the document
+  - For each goal, assess whether it is actionable as-is or requires decomposition:
+    - Can specific problems or decisions be identified from the document context?
+    - Is the goal describing a problem to solve, or merely a desired outcome?
+    - Does the document provide sufficient context about current state, challenges, or approach?
+- **Problem Identification**
+  - Extract underlying problems from:
+    - Explicit problem statements in the document.
+    - Challenges mentioned in context.
+    - Gaps between current state and goal.
+  - Avoid inventing problems not present in the document.
+- **Problem Analysis**
+  - For each identified problem, assess clarity:
+    - If clearly defined:
+      - Determine whether solving it requires developing expertise (not just executing tasks).
+        - If expertise development is needed, then propose a BrainLift with clear purpose statement.
+        - If execution only, then note that it is an execution task, not a BrainLift candidate.
+    - If not clearly defined:
+      - List specific curious questions needed to clarify:
+        - What is the current state?
+        - What are the actual challenges?
+        - What has been tried?
+        - What decisions need to be made?
+        - What expertise is lacking?
+- **Quality Standards**
+  - Never propose a BrainLift without a clear, specific purpose statement.
+  - If the purpose statement merely restates the goal, insufficient context exists.
+  - When in doubt, ask clarifying questions rather than make assumptions
+
+### **Crossover Q4 Goals**
+
+- **Goal 1 (as stated): Improve Hiring Operations**
+  - Target as specified in the document:
+    - 80% fill rate at the 45 days mark for in-model roles, with LinkedIn sourcing
+    - 100% of pipelines “in-model” (this goal is not full control of Crossover, but measuring it and working to push it higher is the the right thing to do)
+  - Identified problems:
+    - Lack of clarity in org structure, units of work plans
+      - Possible BrainLift: Organization discovery & alignment framework for new BUs
+      - Purpose:  Unclear organizational structure leads to duplicate orders, missing orders, over/under hiring, and hiring for wrong locations. This BrainLift captures the expertise that OrgBuilders developed through defining work units and supporting Education's growth, turning it into a set of applicable SPOVs.
+        - In scope:
+          - Discovery session methodology for extracting org structure from stakeholders
+          - Framework for mapping work units to industry roles and expertise levels
+        - Out of scope:
+          - General organizational design theory
+          - Business unit strategy or product roadmaps
+          - Existing, well-defined org structures that just need execution
+    - Plagiarism and fraud that waste the time of interviewers
+      - No BrainLift needed, since this has clear requirements and is more like an engineering task than a problem that requires expertise building.
+    - Grading backlogs occur when waiting for SME feedback blocks AI grading rollout
+      - This is more of a process that requires SMEs to commit to provide feedback on time rather than an opportunity to develop an expertise on something.
+    - Interview feedback delays persist despite escalation emails
+      - Don't see any BrainLift opportunity here, cause it's more of a behavioral issue again.
+- **Goal 2 (as stated): Improve Educational Hiring**
+  - EDU's top issues are mentioned -  (attention, mishires, vague requirements, and niche roles).
+  - Targets: reduce time-to-offer, cut mishires, raise screen→interview pass quality, and sustain interviews per week (T4W) above plan
+  - Derived problem patterns from the available documents:
+    - Important & Urgent
+      - Not enough attention from Crossover
+      - Mishires
+      - Unclear or vague/subjective requirements
+      - Niche or identity‑based roles
+    - Important, but Non‑Urgent
+      - Unclear org structure (baseline exists; needs upkeep)
+      - Extended interview rounds (pass rates are high but add 2–3 weeks)
+      - Incomplete RWA filtering on senior roles (root cause: #3)
+      - Recruitment not scaling with EDU growth (addressed by above fixes)
+  - From the suggested activities, it's not clear how:
+    - Scale Senior OrgBuilders: hire a VP OrgBuilder ($4.2K/wk) and provide weekly decision-clearing sessions plus 24/7 AI status
+    - and
+    - Outbound Recruiting Engine: add a contract recruiter ($19.5K–48K for Q4) supported by lead sourcers, plus new CRM/VOIP tooling (RFQs in progress).
+    - are going to solve any of the defined problems.
+  - There is one BrainLift mentioned in the set of actions on "standardize role filters and implicit bars to improve requirement clarity and speed", however there's no clear purpose statement on this. Probably a good purpose statement would be:
+    - Education hiring at Crossover faces a critical efficiency problem: vague or subjective requirements create bottlenecks that extend time-to-offer and contribute to mishires. Hiring managers often apply implicit quality standards that aren't documented anywhere, forcing recruiters to guess what makes a candidate suitable. Additionally, niche education roles lack standardized filters, meaning each role gets reinvented from scratch.
+    - This BrainLift captures the expertise needed to solve this problem by:
+      - Defining clear, standardized role filters for education positions that can be reused and adapted
+      - Extracting and documenting the implicit quality bars that experienced hiring managers use but haven't articulated
+    - In scope:
+      - Framework for translating vague education role requirements into clear, actionable filters
+      - Decision criteria for when requirements are "clear enough" vs need more specificity
+    - Out of scope:
+      - General job description writing or copywriting techniques
+      - Requirements standardization for non-education roles (engineering, sales, etc.)
+      - Candidate sourcing strategies
+  - No other BrainLifts to suggest on this goal because of the lack of clarity on expertise gaps.
+  - Questions to clarify:
+    - On problems:
+      - What's the definition of success for each of the problem patterns?
+      - How exactly the mentioned actions are going to contribute towards moving the needle to solve the defined problems?
+- **Goal 3 (as stated): Align on relying primarily on LinkedIn; Stop Searching for Alternatives**
+  - The goal is about alignment and securing an executive buy-in to sign a long-term contract with Linkedin. The only mentioned problem about expired hiring slots leaving the remaining 200 for EDU only is an outcome, not really a problem. Solving this problem doesn't require any BrainLift.
+  - The document doesn't provide enough context on why Linkedin should be the primary source, stating an acknowledgement without a source that alternative hiring pools aren't as cheap, high-quality, and wide segment.
+  - That said, the document mentions Indeed and Google ads as possible sources of retargeting for Q4 specifically, which goes against the long-term strategy of "stop searching for alternatives", raising the following questions:
+    - On problem:
+      - What is the actual challenge of getting the executive buy-in?
+      - What are other actions to secure the executive buy-in than creating the purchase request document?
+    - To validate assumptions:
+      - How solid is the acknowledgement that Linkedin should be the only source of hiring?
+      - How does focusing on short-term Q4 fulfillment help to move the needle in getting the executive buy-in to use Linkedin only?
+- **Goal 4 (as stated): Scale BrainLift Coach**
+  - The defined target is: increase adoption inside Trilogy - 80% of all Trilogy users spending time on BrainLifts find value in the product.
+  - The target is again an outcome, not a problem. It doesn't specify what is missing and therefore the play field is quite large: is the problem in the product or is it behavioral that requires deeper analysis of patterns of how people use BrainLifts and why?
+  - No BrainLift to create due to insufficient context.
+  - Questions to clarify:
+    - On target:
+      - What does "spending time on BrainLifts" mean?
+      - How is "find value" measured?
+      - What does the success look like?
+    - On assumptions:
+      - Is self reported evidence of success enough to measure the success?
+    - On BrainLift Coach:
+      - What works now?
+      - What doesn't work based on data and/or user research?
+      - What user research or data exists about why people don't use BrainLifts?
+- **Goal 5 (as stated): Make WorkSmart Vision AI Valuable**
+  - The stated target is: 2 core functions using it to make decisions or generate insights.
+  - This target is an outcome and doesn't contain any hint towards what is the problem to solve and, therefore, what actions to take to solve that problem.
+  - The mentioned use cases provide more details on the HOW and the WHAT, but the WHY is not addressed - what are the set of problems that users have currently that only Vision AI can help to solve?
+  - No BrainLifts to create here - it's not even clear what is the problem that reaching this target will solve. This is a solution in search of a problem.
+  - Questions to clarify:
+    - On target:
+      - Why is "2 core functions using it" the success metric?
+      - Is the real problem lack of customer demand, unclear value prop, or something else?
+    - On AI vision:
+      - Why do most of the customers use only time tracking?
+      - Why full behavioral tracking is not activated - is it because it's not ready or tested or some other reason?
+      - What research was done with users to understand the value proposition.
+    - On use cases:
+      - What's the purpose of making the candidate information available to Vision AI? It's a solution to a non-existing problem, not a use case.
+- **Goal 6 (as stated): Make WorkSmart the People Source of Truth**
+  - Target is specified as: Support the COO and SaaS group by making XO Manage the source of truth of all contractors working with Trilogy businesses
+  - Again, the target is an outcome and doesn't contain a hit towards the problem.
+  - No BrainLift to propose, since the document describes execution tasks (product changes, data cleaning, and cross-verification) without indicating expertise gaps.
+  - Questions to clarify:
+    - On target:
+      - What is the problem of not having this? Why is it worth to invest in this in Q4 specifically?
+      - What's the definition of success?
+      - What does "people source of truth" mean?
+    - On product:
+      - What data cleaning challenges are expected?
+      - What's the COO group's role - subject matter expertise or coordination?
+- **Goal 7 (as stated): Connect Brand investment to business value**
+  - The target is specified as: Prove brand impact on hiring metrics and optimize spend for maximum ROI.
+  - It's clear that investment in Thought Leadership has positive impact on the Crossover brand and, as a result, on hiring, however it is not clear what problem does this specific goal solve: is it about lack of funds? Not enough impressions?
+  - Under "we will pragmatically focus our investment on quantifiable business value", the document specifies a set of activities to do in the upcoming quarter, however it's not clear WHY. Why specifically these activities and no others?
+  - The document suggests potential budget pressure or ROI questions from leadership, but this is speculation without explicit problem statements.
+  - No BrainLift to propose, since there's no evidence of lacking expertise in something in the document.
+  - Questions to clarify:
+    - On target:
+      - What does the success look like? What happens when the brand impact is proven? What's the impact of this on Crossover in general?
