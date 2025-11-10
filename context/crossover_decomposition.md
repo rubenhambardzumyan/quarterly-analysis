@@ -6,12 +6,16 @@ The goal of this document is to break down the [Q4/2025 plan of Crossover](https
 
 ### Thought Process
 
+- **The Priority**
+  - Identify good goals, and use those good goals to articulate a good purpose statement in cases a BrainLift can be suggested
+  - Using questions to understand the goals deeper and improve the goals, thus being able to suggest a BrainLift with a good purpose statement
 - **Goal Extraction & Validation**
   - Extract all stated goals from the document
   - For each goal, assess whether it is actionable as-is or requires decomposition:
     - Can specific problems or decisions be identified from the document context?
     - Is the goal describing a problem to solve, or merely a desired outcome?
     - Does the document provide sufficient context about current state, challenges, or approach?
+    - Are there enough context and understanding to decompose it into complete, actionable work sub goals?
 - **Problem Identification**
   - Extract underlying problems from:
     - Explicit problem statements in the document.
@@ -22,7 +26,7 @@ The goal of this document is to break down the [Q4/2025 plan of Crossover](https
   - For each identified problem, assess clarity:
     - If clearly defined:
       - Determine whether solving it requires developing expertise (not just executing tasks).
-        - If expertise development is needed, then propose a BrainLift with clear purpose statement.
+        - If expertise development is needed, then propose a BrainLift with clear purpose statement and use the context to articulate a clear, high quality purpose. In case of gaps, list the curious questions that need to be answered and prepare to clarify them with the user
         - If execution only, then note that it is an execution task, not a BrainLift candidate.
     - If not clearly defined:
       - List specific curious questions needed to clarify:
