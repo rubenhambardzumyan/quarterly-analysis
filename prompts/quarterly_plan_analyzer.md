@@ -29,32 +29,61 @@ Follow this rigorous methodology:
     - Gaps between current state and goal.
   - Avoid inventing problems not present in the document.
 - **Problem Analysis**
+
   - For each identified problem, make exactly ONE of these three decisions:
 
-    **Option A: Propose a BrainLift** (when the expertise gap is reasonably clear)
+    **Option A: Propose a BrainLift** (when YOU clearly understand both the problem AND the expertise needed)
+
+    - Ask yourself: "Can I clearly articulate what problem needs solving and what specific expertise would address it?"
+    - If YES, and the expertise involves developing judgment/frameworks/standards (not just execution) → propose BrainLift
+    - If you're making assumptions about what's difficult or inferring challenges not clear from context → use Option C instead
+
     - Write "Possible BrainLift: [Title]"
     - Provide clear purpose statement that explains the problem and expertise gap
     - Define in-scope (2-3 items minimum) and out-of-scope (2-3 items minimum)
     - Keep it concise - avoid over-elaboration
 
-    **Option B: Reject BrainLift for execution tasks**
-    - Write "No BrainLift needed, since [clear explanation]"
-    - Explain why it's execution-only (clear requirements, process issue, behavioral issue, etc.)
-    - Do NOT ask questions after this - the decision is final
+    **Option B: Reject BrainLift for execution tasks** (use sparingly and only when certain)
 
-    **Option C: Reject BrainLift due to insufficient clarity, THEN ask questions**
+    - ONLY use this when the task is genuinely execution-only with no expertise gap:
+      - Pure behavioral/process issues (e.g., getting people to respond to emails faster)
+      - Administrative tasks (e.g., creating purchase requests, scheduling meetings)
+      - Tasks with complete, detailed instructions that require no judgment or problem-solving
+    - Write "No BrainLift needed, since [clear explanation]"
+    - **When in doubt between Option B and Option C, always choose Option C** - it's better to ask the user than to incorrectly dismiss an expertise opportunity
+
+    **IMPORTANT: Do NOT use Option B just because:**
+
+    - The document mentions a solution (implementing that solution may still require expertise)
+    - It sounds like "engineering work" (developing AI systems, detection mechanisms, quality standards, etc. require expertise)
+    - There are technical solutions listed (figuring out HOW to implement them effectively often requires expertise)
+
+    **Option C: Defer BrainLift proposal and ask clarifying questions**
+
+    - Use this when:
+      - You cannot clearly articulate the problem from available context
+      - You're unsure what specific expertise would solve it
+      - You're making assumptions about challenges or difficulty
+      - Unclear whether it's execution vs expertise development
+
     - FIRST write "No BrainLift to propose, since [reason]" OR "No BrainLift to create due to insufficient context"
-    - State the specific reason why the goal is unclear (e.g., "the document doesn't provide enough context on why this should be prioritized")
+    - State the specific reason (e.g., "unclear what the actual problem is", "unclear what makes this challenging", "unclear what expertise is needed")
     - THEN write "Questions to clarify:" and list specific curious questions grouped by category:
       - On problem: / On problems:
       - On assumptions: / To validate assumptions:
       - On target:
       - On [relevant topic]:
+    - **Examples of clarifying questions:**
+      - "What specific challenges are you facing with [X]?"
+      - "What have you tried so far and what didn't work?"
+      - "What makes this difficult vs straightforward execution?"
 
 - **Quality Standards**
   - CRITICAL: Never be tentative. Always make one of the three decisions above.
-  - Never propose a BrainLift without a clear, specific purpose statement.
-  - If the purpose statement merely restates the goal, choose Option C instead.
+  - **Only propose BrainLifts when you have clear understanding** - if you find yourself making assumptions or guessing about challenges, use Option C
+  - Never propose a BrainLift without a clear, specific purpose statement
+  - If the purpose statement merely restates the goal or is generic, choose Option C instead
+  - Test: Could this purpose statement apply to any similar problem? If yes → insufficient context → use Option C
   - When unclear, explicitly state "No BrainLift to propose" BEFORE asking questions
   - Keep BrainLift proposals concise - avoid adding excessive detail or context not in the source document
 
@@ -66,6 +95,16 @@ Before finalizing, verify:
 - [ ] When asking questions, you FIRST stated "No BrainLift to propose/create" with reasoning
 - [ ] For each proposed BrainLift, the purpose statement is clear and identifies the expertise gap (not just restating the goal)
 - [ ] For each proposed BrainLift, in/out scope has 2-3 items minimum (not excessive)
+- [ ] **For each "Possible BrainLift" proposal, verify you can answer:**
+  - [ ] What is the specific problem? (not just the goal, but the actual challenge)
+  - [ ] What specific expertise would solve it? (concrete, not generic)
+  - [ ] Am I making assumptions about what's difficult? → if yes, should be Option C
+  - [ ] Is the purpose statement specific to this context or generic? → if generic, should be Option C
+- [ ] **For each "No BrainLift needed" decision, double-check it doesn't involve:**
+  - [ ] Establishing quality standards, thresholds, or judgment criteria
+  - [ ] Figuring out HOW to implement a solution (vs just executing clear steps)
+  - [ ] Making trade-off decisions or calibrating systems
+  - [ ] Any uncertainty about whether it requires expertise → if uncertain, use Option C instead
 - [ ] For execution-only tasks, the reasoning is explained and NO questions follow
 - [ ] Questions are specific and curious (not generic), grouped by category
 - [ ] Reasonable inferences made from document context without inventing problems
@@ -89,10 +128,13 @@ The goal of this document is to break down the Q4/2025 plan of [Team/Product] in
 ### **[Team] Q4 Goals**
 
 - **Goal N (as stated): [Goal Title]**
+
   - Target as specified in the document:
     - [List specific targets/metrics mentioned]
   - Identified problems:
+
     - [Problem description - concise]
+
       - Possible BrainLift: [Title]
       - Purpose: [Clear problem statement and expertise gap. Keep concise.]
         - In scope:
