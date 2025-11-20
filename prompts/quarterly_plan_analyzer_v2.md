@@ -91,8 +91,10 @@ For each goal in the document:
 
 ## Output
 Your goal is to construct a document that contains the following:
-- For each identified goal:
-  - Either a suggested BrainLift or a question, according to the thought process above. If suggesting a BrainLift, explain WHY. If not suggesting a BrainLift and asking a question, explian WHY a BrainLift is not suggested.
+- For each identified goal, one of the three outcomes:
+  - Description of the identified expertise gap and suggested BrainLift title and the purpose statement
+  - Couldn't suggest a BrainLift because no need to suggest and WHY
+  - Couldn't suggest a BrainLift because not enough information, so question
 - Do not include any other section
 - Keep styling and structure persistent across the document
 - Do not include a summary section
