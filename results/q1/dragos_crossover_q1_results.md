@@ -4,6 +4,19 @@
 
 ---
 
+## TL;DR: 6 BrainLifts Suggested
+
+| # | BrainLift | Goal/Area |
+|---|-----------|-----------|
+| 1 | AI-Enabling Hiring Operations | Hiring - Time-to-fill consistency |
+| 2 | Assessing Autonomy and Ownership in Remote Hiring | Hiring - Retention |
+| 3 | Remote Team Onboarding Design | Hiring - Retention |
+| 4 | Community Building and Management | BrainLift Coach |
+| 5 | Work Unit Observability for Engineering Teams | WorkSmart - Central Eng |
+| 6 | Engineering Decision Capture and Institutionalization | WorkSmart - Central TPM/WSEng |
+
+---
+
 ## Tab 1: Hiring Services
 
 ### Goal 1: Time-to-fill consistency while supporting Alpha expansion (10x growth in 2026)
@@ -18,7 +31,7 @@ This is a hiring decision, not an expertise gap.
 
 #### Tactic: "Continue moving work to AI" (AIPIs, automations, eliminate admin work)
 
-**Proposed BrainLift: AI-Enabling Hiring Operations**
+**<span style="color:red">Proposed BrainLift #1: AI-Enabling Hiring Operations</span>**
 
 **Purpose Statement:**
 The hiring team has successfully moved significant work to AI (77% AI grading, AIPIs, simulation-based assessments, video grading) but this expertise exists as tacit knowledge rather than documented methodology. The Q1 plan calls for continuing to "code practices into AIPIs," "expose AIPIs to customers," and "eliminate admin work" - all requiring judgment about what to automate, how to design AI-graded assessments that maintain quality, and how to validate AI decisions. The expertise gap is in having a systematic framework: criteria for identifying automation candidates, patterns for effective AI assessment design, and quality validation approaches. This BrainLift would formalize the team's accumulated expertise into reusable methodology.
@@ -71,7 +84,7 @@ Extensions of demonstrated capabilities. Adding video grading and plagiarism det
 
 #### Tactic: "Filter for non-easily blockable"
 
-**Proposed BrainLift: Assessing Autonomy and Ownership in Remote Hiring**
+**<span style="color:red">Proposed BrainLift #2: Assessing Autonomy and Ownership in Remote Hiring</span>**
 
 **Purpose Statement:**
 Roughly 50% of terminations across all BUs cite new hires "not following through, needing constant hand-holding, not escalating blockers, leaving work not done, not completing work independently." The document identifies this as requiring assessment of "a mix of autonomy, focus and resourcefulness" - traits current hiring filters fail to predict. The team has identified the behaviors causing terminations but lacks methods to assess these traits pre-hire. This BrainLift would develop assessment frameworks and behavioral indicators that predict autonomy and ownership in remote work.
@@ -84,7 +97,7 @@ Roughly 50% of terminations across all BUs cite new hires "not following through
 
 #### Tactic: "Work with HMs to improve onboarding"
 
-**Proposed BrainLift: Remote Team Onboarding Design**
+**<span style="color:red">Proposed BrainLift #3: Remote Team Onboarding Design</span>**
 
 **Purpose Statement:**
 Many terminations cite issues "easily preventable by setting proper expectations and providing team-specific guidelines" during onboarding. The document explicitly states goals to "establish a quality bar for training/onboarding material" and create "ramp-up training documentation" - clear knowledge formalization language. The team needs to define what good onboarding looks like and how to capture team-specific implicit knowledge. This BrainLift would develop frameworks for onboarding quality standards and knowledge capture methods.
@@ -123,7 +136,7 @@ Product deployment into existing workflow. The team has delivered the course bef
 
 #### Tactic: "Focus on aligned users" / "Work with invested leaders/managers"
 
-**Proposed BrainLift: Community Building and Management**
+**<span style="color:red">Proposed BrainLift #4: Community Building and Management</span>**
 
 **Purpose Statement:**
 BrainLift Coach adoption requires nurturing a community of engaged users - the Q1 plan explicitly aims to "grow and nurture the community - share lessons, approaches that work or do not, success stories" and work with invested leaders to "grow the habit of building brainlifts in their teams." Building and sustaining a community of practice is a distinct expertise that differs from standard product development. The team needs to understand what makes communities of practice thrive: how to identify and activate champions, what content and interactions drive engagement, how to create peer-to-peer value, and how to scale community without losing intimacy. This BrainLift would develop expertise in community building before attempting to establish one.
@@ -146,7 +159,7 @@ The strategy is about cost management and encouraging experimentation, not exper
 
 ### Use-case: "Jozsef / Central Eng: Observability for work units"
 
-**Proposed BrainLift: Work Unit Observability for Engineering Teams**
+**<span style="color:red">Proposed BrainLift #5: Work Unit Observability for Engineering Teams</span>**
 
 **Purpose Statement:**
 Managing large engineering teams requires understanding how work actually happens beyond what's visible in code or tickets. The document frames this as needing "observability" analogous to software observability - "define work units, identify deviations, learn from patterns" to "focus managers on what matters most." The team wants to apply observability concepts to team management but needs to define what that means in practice. This BrainLift would develop the framework for what work units to define, what deviations matter, and how to create learning loops.
@@ -159,7 +172,7 @@ Managing large engineering teams requires understanding how work actually happen
 
 ### Use-case: "Central TPM / WSEng: Capture hidden decisions"
 
-**Proposed BrainLift: Engineering Decision Capture and Institutionalization**
+**<span style="color:red">Proposed BrainLift #6: Engineering Decision Capture and Institutionalization</span>**
 
 **Purpose Statement:**
 Engineers and TPMs make important decisions beyond what's visible in code or specs - architectural choices, tradeoff evaluations, debugging approaches - and these decisions are lost to the organization. The document explicitly states "the big opportunity is uncovering hidden decisions that engineers/TPMs make... capture these decisions, share them with the relevant group, and learn from them." This BrainLift would develop methodology for identifying which decisions matter, how to capture them without disrupting flow, and how to make them discoverable.
