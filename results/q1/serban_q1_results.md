@@ -4,6 +4,18 @@
 
 ---
 
+## TLDR: Suggested BrainLifts
+
+| # | BrainLift | Initiative | Engineering Expertise Gap |
+|---|-----------|------------|---------------------------|
+| 1 | **1EdTech Standards Implementation Principles** | TimeBack - 1EdTech Platform | LTI/QTI/Caliper/CASE implementation patterns for reliable integrations at scale |
+| 2 | **Pedagogical Rules for AI Content Generation** | Simon's Incept - Curriculum Design | Rules engineers can encode into generation prompts and automated validation |
+| 3 | **Agentic Content Generation Architecture** | Shawn's Incept - Agentic Incept | RAG design, multi-model orchestration, production-grade agentic system patterns |
+| 4 | **AI Assessment Design Patterns** | Crossover - Domain-Specific Assessments | Simulation-based and scenario-based assessment architecture with fraud resistance |
+| 5 | **AI-First UI Prototyping Workflow** | Central Function - UI/UX Revamp | Working with AI-generated coded UIs (Lovable) instead of wireframes |
+
+---
+
 ## TimeBack
 
 ### 1EdTech Platform
