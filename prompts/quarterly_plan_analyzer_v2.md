@@ -47,6 +47,7 @@ For each goal in the document:
      - Direct statements about formalizing tacit knowledge: "turn our experience into standard process," "capture implicit knowledge," "standardize what experts do"
      - Knowledge capture language: "extract," "document," "formalize," "develop framework for"
      - Described learning process: "we've learned X through experience and need to make it reusable"
+     - Mentioned set of technologies to invest in the next quarter - that will require a BrainLift to develop the principles.
 
      **Evidence that does NOT qualify (don't infer expertise gaps from):**
 
